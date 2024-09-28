@@ -1,0 +1,22 @@
+Why did you choose the tools, libraries, and language you used for the coding exercise?
+For tools I used vscode as my ide and git to upload my project to github. For libraries I used the flask framework and sqlite3. I chose flask because it is minimalistic,
+making it easy to set up for this project. I've also had experience with building REST APIs with flask so it was also something I was already familiar with. I used sqlite3 as
+my database because its easy to setup and doesn't require a seperate server. I could have built this api without using a database but I figured that implementing a persistant data
+storage system now would be beneficial if I ever have to expand on this project. Also, the use of a datbase would make this project more efficient with handling a lot of requests.
+I used python because I have already had prior experience with flask and because python will be easier to read if the person reviewing my code is not familiar with some other language 
+I could have used. 
+
+
+What are the advantages and disadvantages of your solution?
+One advantage of my solution is that it has persistant data storage because I used sqlite3. It's able to store the data even if a new instance of the app is run, as along as
+the database isn't deleted. It's also easy to scale in terms of adding differnt database queries using SQL given that I already have the database set up. One distadvantage is that 
+the databse won't be able to scale to millions of request because of the fact that its serverless. Another disadvantage is that this project only works a single user. I could have
+created another table with users and linked it to the transactions table using a foregin key but this was out of scope for the instructions. However, this could have made the endpoint
+for the spend function require less code. 
+
+What has been a favorite school/personal project thus far? What about it that challenged you?
+My favorite project so far has been creating an app where my brother and I could upload our baseball cards and view eachothers collections. I worked on it over this summer as a way 
+to improve my coding but also becuase I wanted a way to keep in touch with my brother even if we weren't physically with eachother. The hardest part about it was that it was the first
+relatively large non-school project that I worked on and it combined a lot of differnt skills that I hadn't had exposure to such as database mangement and user authetication. It 
+was also a difficult to get used to reading documentation rather than just following along with tutorials. A lot of my other projects before were pretty generic and could be 
+coded using a tutorial but this one required me to be more independent which was a new challenge for me. 
